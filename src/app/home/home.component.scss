@@ -8,6 +8,10 @@
     .responsive {
         width: 80px;
     }
+
+    .container {
+      max-height: 210px;
+    }
 }
 
 
@@ -19,6 +23,7 @@
 
 .container {
     position: relative;
+    max-height: 420px;
 }
   
   .overlay {
