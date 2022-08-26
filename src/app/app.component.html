@@ -1,32 +1,14 @@
 <div class="main-container">
-  <div class="header">
-    <div class="logo">  
+  <div class="header" style="padding-bottom: 20px;">
+    <div class="logo" style="text-align: center;">  
       <a href="#" class="logo-1">
         <img src="../images/VANNA-Logo (1).jpg" alt="image" class="responsive" />
       </a>
     </div>
-    <div class="nav-bar">
-
+    <p-divider></p-divider>
+    <div class="navbar" style="padding-top: 5px;">
+      <p-menubar [model]="items"></p-menubar>
     </div>
   </div>
   <router-outlet></router-outlet>
-  <!-- <div class="content1">
-    <div class="grid">
-      <div class="col-12 md:col-6 lg:col-6 container">
-          <img src="../images/Guest Bedroom_view1.jpg" alt="Guest Bedroom View 1" class="bedroom-images" />
-          <div class="overlay">
-            <div class="text">Text</div>
-          </div>
-      </div>
-      <div class="col-12 md:col-6 lg:col-6">
-        <img src="../images/Guest Bedroom_view1.jpg" alt="Guest Bedroom View 1" class="bedroom-images"/>
-      </div>
-      <div class="col-12 md:col-6 lg:col-6">
-        <img src="../images/Guest Bedroom_view1.jpg" alt="Guest Bedroom View 1" class="bedroom-images"/>
-      </div>
-      <div class="col-12 md:col-6 lg:col-6">
-        <img src="../images/Guest Bedroom_view1.jpg" alt="Guest Bedroom View 1" class="bedroom-images"/>
-      </div>
-    </div>
-  </div> --> 
 </div>
