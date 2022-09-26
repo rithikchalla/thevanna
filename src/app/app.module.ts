@@ -8,12 +8,14 @@ import { InteriorComponent } from './interior/interior.component';
 import { HomeComponent } from './home/home.component';
 import { DividerModule } from 'primeng/divider';
 import { MenubarModule } from 'primeng/menubar';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InteriorComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,5 @@
 .responsive {
-    width: 150px;
+    width: 135px;
 }
 
 
@@ -20,6 +20,7 @@
   padding: 0;
   box-sizing: border-box;
   //font-family: 'Poppins',sans-serif;
+  font-style: italic;
   text-decoration: none;
 }
 footer{
@@ -71,7 +72,7 @@ footer .content .right input[type="text"]{
   height: 45px;
   width: 100%;
   outline: none;
-  color: #111;
+  color: #fff;
   background: #000;
   border-radius: 5px;
   padding-left: 10px;
@@ -123,7 +124,7 @@ footer .bottom a{
 footer a{
   transition: all 0.3s ease;
 }
-footer a:hover{
+a:hover{
   color: #eb2f06;
 }
 @media (max-width:1100px) {
@@ -162,5 +163,6 @@ nav a {
     display: inline-block;
     font-size: large;
     font-family: sans-serif;
+    font-style: italic;
     //background-color: #e8e8e8;
   }
