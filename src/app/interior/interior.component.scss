@@ -49,3 +49,9 @@
     text-align: center;
   }
   
+
+  :host ::ng-deep { 
+    .test123.p-menubar {
+    background-color: red;
+  }
+}

@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { InteriorComponent } from './interior/interior.component';
 import { HomeComponent } from './home/home.component';
 import { DividerModule } from 'primeng/divider';
-import { MenubarModule } from 'primeng/menubar'
+import { MenubarModule } from 'primeng/menubar';
 
 @NgModule({
   declarations: [
