@@ -1,7 +1,7 @@
-<div class="main-content">
+<div class="main-content" *ngIf="display_orginal_image">
     <div class="grid">
         <div class="col-12 md:col-6 lg:col-6 container">
-            <a routerLink="/modernfarmhouse">
+            <a [routerLink]="" (click)="image_clicked(1)">
                 <img src="../../images/modern-farm-house/01_2 - Photo (8).jpg" alt="modern-farm-house" class="bedroom-images" />
                 <div class="overlay">
                     <div class="text">Modern Farm House</div>
@@ -9,7 +9,7 @@
             </a>
         </div>
         <div class="col-12 md:col-6 lg:col-6 container">
-            <a routerLink="/miyapurhome">
+            <a [routerLink]="" (click)="image_clicked(2)">
                 <img src="../../images/miyapur-home/Master Bedroom.png" alt="miyapur-home" class="bedroom-images" />
                 <div class="overlay">
                     <div class="text">Miyapur Home</div>
@@ -17,7 +17,7 @@
             </a>
         </div>
         <div class="col-12 md:col-6 lg:col-6 container">
-            <a routerLink="/black-room">
+            <a [routerLink]="" (click)="image_clicked(3)">
                 <img src="../../images/black-room/05.png" alt="black-room" class="bedroom-images" />
                 <div class="overlay">
                     <div class="text">Black Room</div>
@@ -25,15 +25,13 @@
             </a>
         </div>
         <div class="col-12 md:col-6 lg:col-6 container">
-            <a routerLink="/star-east-face">
                 <img src="../../images/star-east-face/Final render.jpg" alt="black-room" class="bedroom-images" />
                 <div class="overlay">
                     <div class="text">Star East Face</div>
                 </div>
-            </a>
         </div>
         <div class="col-12 md:col-6 lg:col-6 container">
-            <a routerLink="/project-x-1">
+            <a a [routerLink]="" (click)="image_clicked(4)">
                 <img src="../../images/Projectx-1/01_1 - Photo (1).jpg" alt="Project x Option 1" class="bedroom-images" />
                 <div class="overlay">
                     <div class="text">Project X</div>
@@ -41,7 +39,7 @@
             </a>
         </div>
         <div class="col-12 md:col-6 lg:col-6 container">
-            <a routerLink="/project-x-2">
+            <a a [routerLink]="" (click)="image_clicked(5)">
                 <img src="../../images/Project-x-2/02_1 - Photo (1).jpg" alt="Project x Option 2" class="bedroom-images" />
                 <div class="overlay">
                     <div class="text">Project X</div>
