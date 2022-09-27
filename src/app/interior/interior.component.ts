@@ -78,6 +78,6 @@ export class InteriorComponent implements OnInit {
         break
       }
     }
-    this.router.navigateByUrl("/detail_images", { skipLocationChange: true })
+    this.router.navigateByUrl("/detail_images")
   }
 }
